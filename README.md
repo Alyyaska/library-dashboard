@@ -76,6 +76,16 @@ library-dashboard/
 ```bash
 cd server
 npm install
+```
+Cоздайте файл .env и вставьте:
+
+```bash
+PORT=4000
+DATABASE_URL=postgresql://postgres:1234@localhost:5432/library_dashboard
+```
+После этого запустите сервер:
+
+```bash
 node src/app.js
 ```
 
@@ -149,3 +159,4 @@ DELETE /api/books/:id
 
 📌 После запуска приложение доступно в браузере по адресу:
 **[http://localhost:5173](http://localhost:5173)**
+
