@@ -29,14 +29,15 @@ CREATE TABLE books (
 
 INSERT INTO authors (full_name, birth_date, rating, country)
 VALUES
-('Лев Толстой', '1828-09-09', 4.90, 'Russia'),
-('Фёдор Достоевский', '1821-11-11', 4.80, 'Russia'),
+('Leo Tolstoy', '1828-09-09', 4.90, 'Russia'),
+('Fyodor Dostoevsky', '1821-11-11', 4.80, 'Russia'),
 ('Ernest Hemingway', '1899-07-21', 4.20, 'USA'),
 ('Haruki Murakami', '1949-01-12', 4.10, 'Japan');
 
 INSERT INTO books (author_id, title, published_on, pages, price)
 VALUES
-(1, 'Война и мир', '1869-01-01', 1225, 19.99),
-(1, 'Анна Каренина', '1877-01-01', 864, 14.50),
-(2, 'Преступление и наказание', '1866-01-01', 671, 12.00),
-(3, 'The Old Man and the Sea', '1952-09-01', 127, 7.99);
+(1, 'War and Peace', '1869-01-01', 1225, 19.99),
+(1, 'Anna Karenina', '1877-01-01', 864, 14.50),
+(2, 'Crime and Punishment', '1866-01-01', 671, 12.00),
+(3, 'The Old Man and the Sea', '1952-09-01', 127, 7.99),
+(4, 'Norwegian Wood', '1987-09-04', 296, 12.99);
